@@ -1,0 +1,8 @@
+<p>
+  show-message works!
+
+<input #myMessage myMessage.value='' />
+<!-- myMessage.value is passed as a parameter to the onClickMe method -->
+<button (click)="onClickMe(myMessage.value)">Click Me!</button>
+</p>
+<h3 class="message">{{clickMessage}}</h3>
