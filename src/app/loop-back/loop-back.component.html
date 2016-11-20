@@ -1,5 +1,5 @@
 <p>
   <!-- updates the output after each keypress -->
-  <input #myMessage (keyup)="0" />
+  <input [(ngModel)]="myMessage" />
 </p>
-<p>{{myMessage.value}}</p>
+<p>{{myMessage}}</p>
